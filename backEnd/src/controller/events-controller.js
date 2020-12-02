@@ -16,7 +16,24 @@ const getAll = (request, response) => {
   });
 };
 
+const adEvent = (request, response) => {
+  const eventBody = request.body;
+  const event = new eventsCollection(eventBody);
+
+  event.save((error) => {
+    if (error) {
+      return response.status(400).send(error);
+    } else {
+      return response.status(200).send({
+        message: "POST with success",
+        event,
+      });
+    }
+  });
+};
+
 module.exports = {
     getAll,
+    adEvent,
   };
   

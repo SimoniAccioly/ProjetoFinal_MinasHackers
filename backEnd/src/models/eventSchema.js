@@ -31,7 +31,7 @@ const eventSchema = new Schema({
     type: String,
     required: true,
   },
-  registeredBy: {
+  registeredBy: { //nomedousuário
     type: String,
     required: true,
   },
