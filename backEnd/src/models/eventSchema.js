@@ -37,5 +37,9 @@ const eventSchema = new Schema({
   },
 });
 
+//como fazer para todos os itens serem preenchidos? é front?
+//como fazer para na busca ser apenas o item já existente?
+//como colocar o nome do usuário registrado para entrar automáticamente no registeredBy
+
 const newRegisterCollection = mongoose.model('newRegister', eventSchema)
 module.exports = newRegisterCollection

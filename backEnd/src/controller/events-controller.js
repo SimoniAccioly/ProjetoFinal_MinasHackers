@@ -32,8 +32,30 @@ const adEvent = (request, response) => {
   });
 };
 
+const updateEvent = (request, response) => {
+  const idParam = request.params.id 
+  const body = request.body
+  const novo = {new: true} 
+
+  eventsCollection.findByIdAndUpdate( 
+      idParam,
+      body, 
+      novo,
+      (error, event) =>{ 
+          if(error){
+              return response.status(500).send(error)
+          } else if (event) {
+              return response.status(200).send(event) 
+          } else{
+              return response.status(200).send("Evento não pode ser atualizado!") 
+          }
+      }
+  )    
+}
+
 module.exports = {
     getAll,
     adEvent,
+    updateEvent,
   };
   
