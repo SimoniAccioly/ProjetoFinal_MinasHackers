@@ -53,9 +53,25 @@ const updateEvent = (request, response) => {
   )    
 }
 
+const deletEvent = (request, response) => {
+  const idParam = request.params.id
+  eventsCollection.findByIdAndDelete(idParam, (error,event) =>{
+    if(error){
+      return response.status(500).send(error)
+      } else{
+          if(event){
+              return response.status(200).send("Evento deletado com sucesso!")
+          }else {
+              return response.status(200).send("Não deu pra apagar evento =( ")
+          }
+      }
+  })
+} 
+
 module.exports = {
     getAll,
     adEvent,
     updateEvent,
+    deletEvent
   };
   
