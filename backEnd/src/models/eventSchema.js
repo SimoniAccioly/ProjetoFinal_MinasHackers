@@ -32,7 +32,8 @@ const eventSchema = new Schema({
     required: true,
   },
   registeredBy: { //nomedousuário
-    type: String,
+    type: Schema.Types.ObjectId,
+    ref: 'user',
     required: true,
   },
 });

@@ -3,7 +3,6 @@ const router = express.Router()
 
 
 
-
 router.get("/", function(request, response){
     response.status(200).send({
         title: ".:Bem vindo ao Minas Hackers:.",
