@@ -1,4 +1,3 @@
-const { response } = require("../app");
 const eventsCollection = require("../models/eventSchema");
 
 const findForCategory= (request, response) => {

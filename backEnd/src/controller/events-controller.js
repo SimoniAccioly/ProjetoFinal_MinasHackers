@@ -1,4 +1,3 @@
-const { response } = require("../app");
 const eventsCollection = require("../models/eventSchema");
 
 const getAll = (request, response) => {

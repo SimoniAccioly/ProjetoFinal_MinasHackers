@@ -1,4 +1,3 @@
-const { response } = require("../app");
 const loginCollection = require("../models/usersSchema");
 
 const login = (request, response) => {
