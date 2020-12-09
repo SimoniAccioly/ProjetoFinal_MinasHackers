@@ -1,8 +1,9 @@
 const express = require('express');
+const bodyParser = require('body-parser')
 const app = express();
 const cors = require('cors');
 
-const database = require('./models/repository')
+const database = require('../server')
 
 database.connect() 
  const index = require('./routes/index-route');
@@ -12,6 +13,8 @@ database.connect()
 
 app.use(cors());
 app.use(express.json());
+app.use(bodyParser.json())
+app.use(bodyParser.urlencoded({ extended: true }));
 app.use('/', index);
 app.use('/events', events);
 app.use('/search',search);
