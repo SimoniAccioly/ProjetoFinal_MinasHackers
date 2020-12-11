@@ -1,7 +1,7 @@
 const eventsCollection = require("../models/eventSchema");
 
 const findForCategory = (request, response) => {
-  console.log(request.params);
+  
   const filter = {};
   if (request.query.category) filter.category = request.query.category;
 
