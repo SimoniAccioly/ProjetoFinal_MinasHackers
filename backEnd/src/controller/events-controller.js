@@ -1,9 +1,14 @@
+
 const eventsCollection = require("../models/eventSchema");
 
 const getAll = (request, response) => {
   console.log(request.url);
 
-  eventsCollection.find((error, events) => {
+  eventsCollection
+  .find()
+  .populate('newUser')
+  .exec
+  ((error, events) => {
     if (error) {
       return response.status(500).send(error);
     } else {

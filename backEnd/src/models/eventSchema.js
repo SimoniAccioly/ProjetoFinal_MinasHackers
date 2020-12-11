@@ -2,9 +2,9 @@ const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
 const eventSchema = new Schema({
-  _id: {
-    type: mongoose.Schema.Types.ObjectId,
-    auto: true,
+  registeredBy: { //nomedousuário
+    type: Schema.Types.ObjectId,
+    ref: 'newUser',
     required: true,
   },
   eventName: {
@@ -30,11 +30,6 @@ const eventSchema = new Schema({
   subcategory: { //seminário, palestra, curso, oficina, etc
     type: String,
     required: true,
-  },
-  registeredBy: { //nomedousuário
-    type: Schema.Types.ObjectId,
-    ref: 'user',
-    required: false,
   },
 });
 
