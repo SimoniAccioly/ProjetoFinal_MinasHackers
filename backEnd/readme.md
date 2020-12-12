@@ -214,9 +214,14 @@ Funcionalidades da aplicação
 
 No início desse ano me peguei com um bebê lindo, uma casa maravilhosa (pra mim é, rs), um casamento maravilhoso, porém uma frustração profissional.
 Apesar de ter me formado em um curso que gostava, de ter passado por lugares que me fizeram crescer, eu não me encontrava.
+
+
 Quando pensei em entrar para a tecnologia, deparei com a barreira do medo, do meio masculino, de não conseguir, até que encontrei as comunidades de mulheres na tecnologia.
+
+
 Encontrar Mulheres reais que não só mostravam um caminho a seguir, mas te davam oportunidades e me fizeram chegar até aqui!
 Meu agradecimento hoje vai muito além, vai além da família maravilhosa que tenho e que me dá total rede de apoio, vai além do marido que amo e que me apoia, hoje meu agradecimento é a essa rede linda de mulheres maravilhosas que a Tecnologia me trouxe, a Silvia Coelho que abriu as portas e me mostrou o caminho a seguir, a Reprograma por dar oportunidade a mulheres como eu, a Jô, a Ceci, as professoras maravilhosas que passaram pela nossa jornada, e as 34 mulheres que junto comigo cresceram nessa caminhada.
+
 Esse projeto Minas Hackers é o meu jeito de agradecer a comunidade, e ajudar outras mulheres como eu, que só precisam de um empurrãozinho, e que através do site poderá saber por onde começar, quais oportunidades não pode perder e além disso ter a sensação de pertencer à uma comunidade, de fazer parte de um lugar que mulheres gigantes antes de mim conquistaram.
 Gratidão... 💜
 
