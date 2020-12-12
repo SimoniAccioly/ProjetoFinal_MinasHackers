@@ -101,7 +101,7 @@ $ cd backEnd
 
 # Instale as dependências
 $ npm install
-$ npm instal mongoose
+$ npm install mongoose
 
 # Execute o servidor
 $ npm start
@@ -112,13 +112,13 @@ $ npm start
 
 * Modifique `.env` para receber as variáveis de ambiente e substitua para que seu servidor funcione adequadamente
 
-Para acessar via Heroku, acesse o [](https://)
+Para acessar via Heroku, acesse o [link](https://minas-hackers.herokuapp.com/)
 
 * Utilize o [Postman](https://www.postman.com/) ou [Insomnia](https://insomnia.rest/download/) para para chamar e testar os endpoints da API localmente ou via Heroku
 
 ## 🛠Tecnologias
 
-Para a consturição do projeto, as seguintes tecnologiasforam utilizadas:
+Para a consturição do projeto, as seguintes tecnologias foram utilizadas:
 
 - [JavaScript](https://www.javascript.com/)
 - [Git/Github](https://github.com/)
@@ -136,7 +136,7 @@ Para a consturição do projeto, as seguintes tecnologiasforam utilizadas:
 Funcionalidades da aplicação
 
 - [X] Login - POST
-- [X] Cadastrar evento no site = POST
+- [X] Cadastrar evento no site - POST
 - [X] Apagar evento no site - DELETE
 - [X] Buscar eventos - GET
 - [X] Busca por ID - GET
@@ -152,7 +152,7 @@ Funcionalidades da aplicação
 
 * [X] "/"  -  title: ".:Bem vindo ao Minas Hackers:."  version: "1.0.0"
 
-#### Criação de login
+#### Cadastro de usuário
 
 - [X] "/login"
 
@@ -186,8 +186,8 @@ Funcionalidades da aplicação
 
 {
 "name": "Simoni",
-"email": "simoni@gmail.com",
-"dataDeNascimento": "1989-03-08",
+"email": "simoni@email.com",
+"dataDeNascimento": "1990-05-10",
 "genre": "feminino"
 }
 
@@ -196,27 +196,28 @@ Funcionalidades da aplicação
 {
 "registeredBy": "id do usuario cadastrado",
 "eventName:" "Reprograma",
-"eventDate": "12/12/2020",
+"eventDate": "2020-12-12",
 "category": "back end",
 "subcategory": "curso",
 "mainTheme": "node",
 "costs": "gratuito"
 }
 
-### 🚧 Projeto em Construção
+### 🚧 Features a serem desenvolvidas
 
-Autenticação;
-Aprovação;
-Front-end;
+* Autenticação;
+* Aprovação;
+* Front-end;
+* E muito mais...
 
 # Agradecimentos
 
 No início desse ano me peguei com um bebê lindo, uma casa maravilhosa (pra mim é, rs), um casamento maravilhoso, porém uma frustração profissional.
 Apesar de ter me formado em um curso que gostava, de ter passado por lugares que me fizeram crescer, eu não me encontrava.
 Quando pensei em entrar para a tecnologia, deparei com a barreira do medo, do meio masculino, de não conseguir, até que encontrei as comunidades de mulheres na tecnologia.
-Encontrar Mulheres reais que não só mostravam um caminho a seguir mas te davam oportunidades, me fizeram chegar até aqui!
-Meu agradecimento hoje vai além, além da família maravilhosa que tenho e que me dá total rede de apoio que mais preciso, vai além do marido que amo e que me apoia, hoje meu agradecimento é a essa rede linda de mulheres maravilhosas que a Tecnologia me trouxe, a Silvia Coelho que abriu as portas e me mostrou o caminho a seguir, a Reprograma por dar oportunidade a mulheres como eu, a Jô, a Ceci, as professoras maravilhosas que passaram pela nossa jornada, e as 34 mulheres que junto comigo cresceram nessa caminhada.
-Esse projeto Minas Hackers é o meu jeito de agradecer a comunidade, e ajudar outras mulheres como eu, que só precisam de um empurrãozinho, e que através do site poderá saber por onde começar, quais oportunidades não pode perder e além disso ter a sensação de ter pertencer à uma comunidade, de fazer parte de um lugar que mulheres gigantes antes de mim conquistaram.
+Encontrar Mulheres reais que não só mostravam um caminho a seguir, mas te davam oportunidades e me fizeram chegar até aqui!
+Meu agradecimento hoje vai muito além, vai além da família maravilhosa que tenho e que me dá total rede de apoio, vai além do marido que amo e que me apoia, hoje meu agradecimento é a essa rede linda de mulheres maravilhosas que a Tecnologia me trouxe, a Silvia Coelho que abriu as portas e me mostrou o caminho a seguir, a Reprograma por dar oportunidade a mulheres como eu, a Jô, a Ceci, as professoras maravilhosas que passaram pela nossa jornada, e as 34 mulheres que junto comigo cresceram nessa caminhada.
+Esse projeto Minas Hackers é o meu jeito de agradecer a comunidade, e ajudar outras mulheres como eu, que só precisam de um empurrãozinho, e que através do site poderá saber por onde começar, quais oportunidades não pode perder e além disso ter a sensação de pertencer à uma comunidade, de fazer parte de um lugar que mulheres gigantes antes de mim conquistaram.
 Gratidão... 💜
 
 ```
