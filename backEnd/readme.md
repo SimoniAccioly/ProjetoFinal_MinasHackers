@@ -6,7 +6,7 @@
 
 API desenvolvida como Projeto Final para a conclusão do curso de Backend [{Reprograma}](https://reprograma.com.br/).
 
-Para visualizar a descrição completa do projeto, siga o [Projeto](/assets/ProjetoPDF.pdf)
+Para visualizar a descrição completa do projeto, siga o [Projeto](/backEnd/assets/ProjetoPDF.pdf)
 
 > O projeto Minas Hackers surgiu com o objetivo de ser o ponto focal de mulheres que buscam conhecimento em tecnologia.
 >
@@ -70,11 +70,11 @@ Arquitetura MVC
             |	events-route.js
             |	index-route.js
             |	login-route.js
-            |_	search-route.js    
-          
+            |_	search-route.js  
+        
 ```
 
-Clique para visualizar o desenho da [Arquitetura](/assets/arquitetura.png)
+Clique para visualizar o desenho da [Arquitetura](/backEnd/assets/arquitetura.png)
 
 ## 🔸Instalação
 
