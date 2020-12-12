@@ -6,7 +6,7 @@
 
 API desenvolvida como Projeto Final para a conclusão do curso de Backend [{Reprograma}](https://reprograma.com.br/).
 
-Para visualizar a descrição completa do projeto, siga [ProjetoFinal](/assets/ProjetoPDF.pdf)
+Para visualizar a descrição completa do projeto, siga o [Projeto](/assets/ProjetoPDF.pdf)
 
 > O projeto Minas Hackers surgiu com o objetivo de ser o ponto focal de mulheres que buscam conhecimento em tecnologia.
 >
@@ -45,6 +45,7 @@ Para a execução do projeto final, desenvolvemos uma API fundamentada no modelo
 
 ## 🔸Arquitetura
 
+```
 Arquitetura MVC
     |
     \--📂 backEnd
@@ -71,8 +72,9 @@ Arquitetura MVC
             |	login-route.js
             |_	search-route.js    
           
+```
 
-Clique para visualizar o desenho da [Arquitetura](![arquitetura](https://user-images.githubusercontent.com/67556668/101965854-d108b580-3bf4-11eb-938c-662ced5024e2.png))
+Clique para visualizar o desenho da [Arquitetura](/assets/arquitetura.png)
 
 ## 🔸Instalação
 
@@ -150,7 +152,7 @@ Funcionalidades da aplicação
 
 * [X] "/"  -  title: ".:Bem vindo ao Minas Hackers:."  version: "1.0.0"
 
-#### Criação de login 
+#### Criação de login
 
 - [X] "/login"
 
@@ -166,7 +168,7 @@ Funcionalidades da aplicação
 
 - [X] "events/:id"
 
-#### Deleta cadastro ou postagem por id específico 
+#### Deleta cadastro ou postagem por id específico
 
 - [X] "events/:id"
 
@@ -174,11 +176,9 @@ Funcionalidades da aplicação
 
 - [X] "/events/:id"
 
-#### Busca por um ou mais campos 
+#### Busca por um ou mais campos
 
 - [X] "/search"
-
-
 
 ## 🔸Modelo com campos obrigatórios para teste
 
@@ -203,13 +203,11 @@ Funcionalidades da aplicação
 "costs": "gratuito"
 }
 
-
 ### 🚧 Projeto em Construção
 
 Autenticação;
 Aprovação;
 Front-end;
-
 
 # Agradecimentos
 
